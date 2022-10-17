@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-3.6.1.slim.min.js"></script>
+    <script src="typed.js"></script>
+    <script src="particles.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>website by Masaka</title>
+</head>
+<body>
+
+<div id="particles-js">
+
+<nav class="navbarbox">
+  <nav class="navbar">
+      <a href="#sound">Sound</a>
+      <a href="#assets">Assets</a>
+      <a href="#tilesets">Tilesets</a>
+      <a href="#icons">Icons</a>
+      <a href="#sprites">Sprites</a>
+
+  </nav>
+  <nav class="about">
+    <a href="#about">About</a><
+    <a href="https://discord.gg/C8eXP8DxQk">Discord</a>
+  </nav>
+</nav>
+
+<div class="container">
+  <div id="sound"><h1>Sound Packs</h1><p>oops! this website is unready for this</p></div>
+  <div id="tilesets"><h1>Tilesets</h1><p>oops! this website is unready for this</p></div>
+  <div id="entities"><h1>Characters & Entities</h1><p>oops! this website is unready for this</p></div>
+  <div id="assets"><h1>Game assets</h1><p>oops! this website is unready for this</p></div>
+  <div id="icons"><h1>Icons & Items</h1><p>oops! this website is unready for this</p></div>
+  <div id="sprites"><h1>Sprites</h1><p>oops! this website is unready for this</p></div>
+</div>
+   <span id="typed"></span>
+
+</div>
+    <script>
+        $(document).ready(function() {
+            var typed = new Typed("#typed",{
+                strings: ["welcome","","",""],
+                backSpeed: 100,
+                typeSpeed: 100,
+                loop: true
+                
+
+            });
+
+            particlesJS("particles-js", {
+  "particles": {
+    "number": {
+      "value": 380,
+      "density": {
+        "enable": true,
+        "value_area": 1500
+      }
+    },
+    "color": {
+      "value": "#ffffff"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 0.5,
+      "random": false,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 3,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 40,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 150,
+      "color": "#ffffff",
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 6,
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "grab"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 140,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 40,
+        "duration": 2,
+        "opacity": 8,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+});
+
+
+        })
+
+
+    </script>
+</body>
+</html>
